@@ -35,5 +35,5 @@ module.exports = {
 
 The matchers option is an array of objects that have a `matcher` property (must be a `RegExp`), and an `action` property, which must be a function. The `action` function should either return the new JSON, or a Promise that will resolve the new JSON.
 
-- `matcher` is a RegExpt, and is being tested against the asset name, that is, the filenames in your build-folder.
-- `action` is a function that receives 2 arguments: `json` (JSON content of the file), and `assetKey` (the filename that was matched by the `matcher`)
+- `matcher` is a RegExp, and is being tested against asset filenames, that is, the filenames in your build-folder.
+- `action` is a function that receives 2 arguments: `json` (JSON content of the file), and `assetKey` (the filename that was matched by the `matcher`). The function may return the new JSON, or a promise that resolves in the new json.
