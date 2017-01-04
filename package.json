@@ -1,0 +1,25 @@
+{
+  "name": "json-post-process-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "mocha recursive --reporter spec ./lib",
+    "test:watch": "npm run test -- --watch"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "author": "Christoffer Skeppstedt <c.skeppstedt@gmail.com> (https://github.com/cskeppstedt/)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "fs-extra": "^1.0.0",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0",
+    "webpack": "^1.14.0",
+    "webpack-manifest-plugin": "^1.1.0"
+  }
+}
