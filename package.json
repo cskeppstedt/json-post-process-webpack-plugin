@@ -1,6 +1,6 @@
 {
   "name": "json-post-process-webpack-plugin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/cskeppstedt/json-post-process-webpack-plugin.git"
   },
   "engines": {
-    "node" : ">=6.9.2"
+    "node": ">=6.9.2"
   },
   "keywords": [],
   "author": "Christoffer Skeppstedt <c.skeppstedt@gmail.com> (https://github.com/cskeppstedt/)",
@@ -34,6 +34,11 @@
     "webpack-manifest-plugin": "^1.1.0"
   },
   "standard": {
-    "globals": [ "describe", "it", "beforeEach", "afterEach" ]
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach"
+    ]
   }
 }
