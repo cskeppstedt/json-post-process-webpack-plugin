@@ -4,9 +4,10 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "standard",
-    "test": "mocha recursive --reporter spec ./lib",
-    "test:watch": "npm run test -- --watch"
+    "test": "npm run test:lint && npm run test:unit",
+    "test:lint": "standard",
+    "test:unit": "mocha recursive --reporter spec ./lib",
+    "test:watch": "npm run test:unit -- --watch"
   },
   "files": [
     "lib"
@@ -31,5 +32,8 @@
     "standard": "^8.6.0",
     "webpack": "^1.14.0",
     "webpack-manifest-plugin": "^1.1.0"
+  },
+  "standard": {
+    "globals": [ "describe", "it", "beforeEach", "afterEach" ]
   }
 }
