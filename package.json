@@ -11,6 +11,16 @@
   "files": [
     "lib"
   ],
+  "bugs": {
+    "url": "https://github.com/cskeppstedt/json-post-process-webpack-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cskeppstedt/json-post-process-webpack-plugin.git"
+  },
+  "engines": {
+    "node" : ">=6.9.2"
+  },
   "keywords": [],
   "author": "Christoffer Skeppstedt <c.skeppstedt@gmail.com> (https://github.com/cskeppstedt/)",
   "license": "MIT",
