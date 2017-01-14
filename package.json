@@ -20,7 +20,7 @@
     "url": "https://github.com/cskeppstedt/json-post-process-webpack-plugin.git"
   },
   "engines": {
-    "node": ">=6.9.2"
+    "node": ">=4.3.2"
   },
   "keywords": [],
   "author": "Christoffer Skeppstedt <c.skeppstedt@gmail.com> (https://github.com/cskeppstedt/)",
