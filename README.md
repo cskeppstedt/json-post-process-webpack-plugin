@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/cskeppstedt/json-post-process-webpack-plugin.svg)](https://travis-ci.org/cskeppstedt/json-post-process-webpack-plugin)
 
-Simple [webpack](http://webpack.github.io/) plugin that allows you to modify json files during the emit-phase (when all modules have been sealed and compiled). You can add stuff, remove stuff, or replace the contents completely.
+Simple [webpack 4](https://webpack.js.org) plugin that allows you to modify json files during the emit-phase (when all modules have been sealed and compiled). You can add stuff, remove stuff, or replace the contents completely.
 
 The plugin was written to solve a problem I encountered personally, and so it was only built it for that specific use case. It relies on the native `Promise` implementation of node, and uses `const` etc., so it will depend on a somewhat recent version of nodejs.
 
