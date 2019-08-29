@@ -1,17 +1,15 @@
-const ManifestPlugin = require('webpack-manifest-plugin')
+const WebpackAssetsManifest = require('webpack-assets-manifest')
 const publicPath = 'http://cdn.com/assets/'
 
 module.exports = {
-  entry: './index.js',
+  entry: {
+    index: './index.js'
+  },
 
   output: {
     publicPath: publicPath,
-    filename: '[name]-[hash].js'
+    filename: '[name]-[hash:8].js'
   },
 
-  plugins: [
-    new ManifestPlugin({
-      publicPath: publicPath
-    })
-  ]
+  plugins: [new WebpackAssetsManifest({ publicPath: true })]
 }
