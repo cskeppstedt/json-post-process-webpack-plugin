@@ -1,13 +1,13 @@
 language: node_js
 node_js:
-- '4'
-- '5'
-- '6'
+- '10'
+- '11'
+- '12'
 deploy:
   provider: npm
   email: c.skeppstedt@gmail.com
   api_key:
-    secure: Xef8ZPMcafsttBM9d80Z061s1+n6cJ8nv9ngVxvLsgkg+zg1VvlfH+h4SrRo3+HFi1p+6iLIh4L7u7mXEIw9gC7kCCr7MLJn2Sp/KhqY3xualUHpTyH67R5uBGsFze2CNqm+BOhULirAgf8I2Y1hV/k50dP3aNfdCjjrJNxlyu1Wv4dMgX8wRK2LDMXKlCVOyta68mZp8Ku/RRSQ9WheyHSwx/C3TS8elVN0Y1nBU5DekHmElidyDA0XiT8WEiYfybrOil7nUc/cgIqU5LvdStRxD3QTUOv2lUtLnXM9BmIPVAkz35qDkHMw0uJoDgdNlVWHGY/HTavjMJFomP1IMIU7xgErkANFKWioEpSzK/TN5BBISJ/Spupf1DcqzuRuvjt6JUG2Lr4KuN8ZwEz9Vmv4vuYuTAE4fpR923C8kO9goFS0FcV7tarHYasORFGIWXvP0oTznH2PtfEzdzr2Ig5qw4FjglQV60cH6RXqbqpv9xDZBotzb0ryk2wbZdMtU8TAKPYji3ymXMlUE9a76lK0Bju3sOmATGBdLX1Ew62AXKA4pd8/7tpYRnWfT7ysH0t33omKRSDCoQ9XvJws5n/FvVC6yBHltmbIo3OYBctwBDWl0td0oF+3aJNKOb7f6UwhC0rCJMq9VsLv4C7I841L+2UTey624rJC3/SYTHo=
+    secure: JAo1+P+IfNmcs3B4+/7UJ0mv2BYnIiLgNBDAWL55p6j/0vVvzl039PMAtTTRdUgIvvSBHIGbO+fK87dNju79nkMyrpTwqFNM+YahTlxAHLtsqL9DkVIx43Pg5z6rZBoVDpqnoV6Z23JMZy5wmJiusiACRm718+/r2QoWzHCWprR3RlvYFfguw+c2CvXXAw7mPC3L3y2GWos/bV8JWq15vcd3/qJDhySBWxrUqGI8beEdinWKwbTv37/4/UzYdD6jGMmGpagW4UD6xUWx0JyHxZMHL0lVVDRTbfXACZc0+KMHUIjaWWiAqwxI/yH9mlN+mRQhEUtlzzqY0wVLNmklpdx2iMs/ABpFQnq00TPN7D9RquS9Xn5GMJiS1gsmmYVLpsFnwKFw769cqgBBgqtSleFeEVKHk1zZmT3SNAt44cCYUWwvkCCLlrWRr6sQAAnM0Wmg7UeDaGtWZXUPTHHdXrXHSEhEQK3eL1gTpuSqLW1/EMeRUFXznxTl7d0KbM73PbJpSl40GO7hvEw+bfyftkWDbYK2R+KOJMiKuwf3CaIpoPTTlIg/9jOfBsNugRmgQgLzHOuLthUmd1pMo1r9mYUKXDJMOhY0r5gYtlGCqFjcP90vNlEwFYAWXMd6DnVHNJFwBzV//7m79DztLmAJULk9ps8SxjxwlY7YKpomuP8=
   on:
     tags: true
     repo: cskeppstedt/json-post-process-webpack-plugin
