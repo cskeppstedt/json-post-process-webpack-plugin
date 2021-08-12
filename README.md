@@ -1,6 +1,6 @@
 # JSON Post Process Webpack Plugin
 
-[![Build Status](https://travis-ci.org/cskeppstedt/json-post-process-webpack-plugin.svg)](https://travis-ci.org/cskeppstedt/json-post-process-webpack-plugin)
+[![Build Status](https://www.travis-ci.com/cskeppstedt/json-post-process-webpack-plugin.svg?branch=main)](https://www.travis-ci.com/cskeppstedt/json-post-process-webpack-plugin)
 
 Simple [webpack 4](https://webpack.js.org) plugin that allows you to modify json files during the emit-phase (when all modules have been sealed and compiled). You can add stuff, remove stuff, or replace the contents completely.
 
